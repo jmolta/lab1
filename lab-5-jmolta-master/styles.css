@@ -1,0 +1,83 @@
+body {padding-top:40px;}
+img {max-width:100%; display:inline-block; vertical-align:middle;}
+
+#ist363{
+    border: 2px solid transparent;
+    padding: 4px 8px;
+}
+#ist363:hover{
+    border: 2px solid white;
+}
+.article-byline{
+    background-color: #f0f0f0;
+    padding: 0px 12px;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 12px 0px;
+    text-align: right;
+}
+p.aware::first-line{
+    font-size: 1.4eml;
+    color: #717a7a;
+    font-weight: bold;
+}
+blockquote{
+    padding: 24px;
+    font-style: italic;
+    color: white;
+    border-radius: 4px;
+    background-color: #20c997;
+    border: 6px double #07b07e;
+}
+blockquote:last-of-type{
+    background-color: #007bff;
+    border-color: #0062e6;
+}
+.article-content p:last-child{
+    font-size:0.8em;
+}
+aside{
+    padding: 24px;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+ul li{
+    border-top: 1px dashed #ccc;
+    padding: 20px 12px;
+}
+ul li:last-child{
+    border-bottom:1px dashed #ccc;
+}
+ul li:hover{
+    background-color: #f0f0f0;
+}
+ul li a{
+    color: #dc3545;
+}
+ul li a:first-child{
+    font-size: 1.8em;
+}
+ul li a:nth-child(2){
+    font-size: 1.5em;
+}
+ul li a:last-child{
+    font-size: 1.2em;
+}
+.story-ad{
+    margin-top:24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a[href="#"]{
+    pointer-events: none;
+}
+a[href*="syr.edu"]::after{
+    content: "(Syracuse Link)" ;
+    font-size:50%;
+    color:#717a7a;
+    margin-left: 10px;
+}
+
